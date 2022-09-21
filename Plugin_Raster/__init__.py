@@ -2,13 +2,13 @@ def name():
     return "Raster"
 
 def author():
-    return "Abraham Aguirrre Mendizabal"
+    return "Abraham Aguirre Mendizabal"
 
 def authorName():
     return author()
 
 def email():
-    return "abrahamaguirre731qgmail.com"
+    return "Abrahamaguirre731@gmail.com"
 
 def description():
     return "raster"
@@ -19,15 +19,12 @@ def about():
 def version():
     return "0.0.1"
 
-def qgisMinimunVersion():
+def qgisMinimumVersion():
     return "3.0"
 
-def icon ():
+def icon():
     return "raster.png"
-
-def category():
-    return "Raster"
 
 def classFactory(iface):
     from .main import mainMenu
-    return mainMenu (iface)
+    return mainMenu(iface)
